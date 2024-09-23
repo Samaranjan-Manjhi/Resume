@@ -139,7 +139,7 @@
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
-
+         <!--
           <li class="social-item">
             <a href="https://www.facebook.com/samaranjank?mibextid=ZbWKwL" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
@@ -157,7 +157,7 @@
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-
+         -->
         </ul>
 
       </div>
@@ -715,9 +715,6 @@
       </article>
 
 
-
-
-
       <!--
         - #PORTFOLIO
       -->
@@ -735,19 +732,17 @@
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-            <!--
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Database Development</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>System Development</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Application Development</button>
             </li>
-            -->
           </ul>
 
           <div class="filter-select-box">
@@ -767,26 +762,26 @@
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
-              <!--
+              
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Database Development</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>System Development</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Application Development</button>
               </li>
-              -->
+              
             </ul>
 
           </div>
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="system development">
               <a href="https://github.com/Samaranjan-Manjhi/get_sys_info">
 
                 <figure class="project-img">
@@ -799,12 +794,12 @@
 
                 <h3 class="project-title">Display System Information</h3>
 
-                <p class="project-category">Software Development</p>
+                <p class="project-category">System Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="system development">
               <a href="https://github.com/Samaranjan-Manjhi/socket_programming">
 
                 <figure class="project-img">
@@ -812,17 +807,17 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/server-client.jpg" alt="orizon" loading="lazy">
+                  <img src="./assets/images/server-client1.jpg" alt="orizon" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Client-Server Chat Application</h3>
 
-                <p class="project-category">Software Development</p>
+                <p class="project-category">System Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item data-category="system development">
               <a href="https://github.com/Samaranjan-Manjhi/IP_Status_Checker">
 
                 <figure class="project-img">
@@ -835,12 +830,12 @@
 
                 <h3 class="project-title">IP Status Checker</h3>
 
-                <p class="project-category">Software Development</p>
+                <p class="project-category">System Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item data-category="database development">
              <a href="https://github.com/Samaranjan-Manjhi/cve_db_creator" onclick="showPrivateMessage(event)">
 
                 <figure class="project-img">
@@ -853,7 +848,51 @@
 
                 <h3 class="project-title">CVE DB Creator</h3>
 
-                <p class="project-category">Software Development</p>
+                <p class="project-category">Database Development</p>
+
+              </a>
+            </li>
+            <!--
+            <script>
+            function showPrivateMessage(event) {
+              event.preventDefault(); // Prevent the default anchor click behavior
+              alert('This project is private.');
+            }
+            </script>
+            -->
+
+            <li class="project-item  active" data-filter-item data-category="application development">
+              <a href="https://github.com/Samaranjan-Manjhi/File_Explorer_Qt">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/file_explorer.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">File Explorer</h3>
+
+                <p class="project-category">Application Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="system development">
+              <a href="https://github.com/Samaranjan-Manjhi/Ransomware" onclick="showPrivateMessage(event)">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ran3.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">System call Interception</h3>
+
+                <p class="project-category">System Development</p>
 
               </a>
             </li>
@@ -863,43 +902,6 @@
               alert('This project is private.');
             }
             </script>
-
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
