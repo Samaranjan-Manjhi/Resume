@@ -787,7 +787,7 @@
 				</script>
 
 				<div id="videoModal" onclick="closeModal()" style="display: none;">
-					<div id="videoContainer" onclick="event.stopPropagation();">
+					<div id="videoContainer" onclick="event.stopPropagation(event);">
 						<button class="close-button" onclick="closeModal()">X</button>
 						<video id="demoVideo" controls autoplay>
 							<source id="videoSource" src="" type="video/mp4" />
@@ -817,6 +817,8 @@
 
 					function closeModal() {
 					   // Hide the modal
+                  document.getElementById('videoModal').addEventListener('touchstart', closeModal);
+                  event.stopPropagation();
 					   document.getElementById('videoModal').style.display = 'none';
 					   document.getElementById('githubLink').style.display = 'none'; // Hide GitHub link
 					   document.getElementById('demoVideo').pause(); // Pause the video
