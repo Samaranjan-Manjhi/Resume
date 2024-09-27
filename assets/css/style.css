@@ -2,15 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -1043,8 +1034,8 @@ main {
 }
 
 #videoContainer {
-    max-width: 65vw; /* Responsive width */
-    max-height: 65vh; /* Responsive height */
+    max-width: 90vw; /* Responsive width */
+    max-height: 90vh; /* Responsive height */
     position: relative;
     padding: 20px; /* Padding on all sides */
     overflow: hidden; /* Prevent overflow */
