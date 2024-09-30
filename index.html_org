@@ -138,10 +138,10 @@
                   <li class="navbar-item">
                     	<button class="navbar-link" data-nav-link>Blog</button>
                   </li>
-                -->
                   <li class="navbar-item">
                      <button class="navbar-link" data-nav-link>Contact</button>
                   </li>
+                -->
                </ul>
             </nav>
             <!--
@@ -882,32 +882,6 @@
                      </button>
                   </form>
                </section>
-               
-               <script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent the default form submission
-
-    const formData = new FormData(this); // Gather form data
-
-    fetch('/send-email', {
-        method: 'POST',
-        body: formData,
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.status === 'success') {
-            alert('Email sent successfully!');
-            this.reset(); // Reset the form
-        } else {
-            alert('Error sending email: ' + data.message);
-        }
-    })
-    .catch(error => {
-        alert('There was an error: ' + error);
-    });
-});
-</script>         
-
             </article>
          </div>
       </main>
