@@ -117,9 +117,11 @@
                   <li class="navbar-item">
                      <button class="navbar-link" data-nav-link>Project</button>
                   </li>
+                  <!--
                   <li class="navbar-item">
                      <button class="navbar-link" data-nav-link>Contact</button>
                   </li>
+                  -->
                </ul>
             </nav>
             <!--
@@ -171,7 +173,6 @@
                            </p>
                         </div>
                      </li>
-                    <!--
                      <li class="service-item">
                         <div class="service-icon-box">
                            <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
@@ -179,23 +180,14 @@
                         <div class="service-content-box">
                            <h4 class="h4 service-item-title">Software Applications</h4>
                            <p class="service-item-text">
+                           <!--
+                              Professional development of applications for macOS and Linux.
+                           -->
                               Professional development of versatile software applications for macOS and Linux, crafted to meet your specific needs and enhance user experience.
                            </p>
                         </div>
                      </li>
-                  -->
-                    <li class="service-item">
-                         <div class="service-icon-box">
-                         <!-- Replacing SVG image with Ionicon -->
-                              <ion-icon name="desktop-sharp" class="gold-icon"></ion-icon>
-                         </div>
-                         <div class="service-content-box">
-                              <h4 class="h4 service-item-title">Desktop Applications</h4>
-                              <p class="service-item-text">
-                                   Professional development of versatile software applications for macOS and Linux, crafted to meet your specific needs and enhance user experience.
-                              </p>
-                         </div>
-                    </li>
+                  
                      <li class="service-item">
                         <div class="service-icon-box">
                            <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
@@ -456,6 +448,7 @@
                   </div>
                   <ul class="project-list">
                      <li class="project-item active" data-filter-item data-category="system development">
+                        <a href="#" onclick="showProjectDemo('./demo_video/get_sys_info.webm', 'https://github.com/Samaranjan-Manjhi/get_sys_info')">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
                                  <ion-icon name="eye-outline"></ion-icon>
@@ -464,139 +457,82 @@
                            </figure>
                            <h3 class="project-title">Display System Information</h3>
                            <p class="project-category">System Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/get_sys_info.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/get_sys_info" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
+                        </a>
                      </li>
-                    <li class="project-item active" data-filter-item data-category="system development">
-                         <figure class="project-img">
-                              <div class="project-item-icon-box">
-                                   <ion-icon name="eye-outline"></ion-icon>
-                              </div>
-                              <img src="./assets/images/server-client1.jpg" alt="sercli" loading="lazy" />
-                         </figure>
-                         <h3 class="project-title">Client-Server Chat Application</h3>
-                         <p class="project-category">System Development</p>
-                         <!-- 🎥 Demo & GitHub buttons with NO inline style -->
-                         <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/socket_programming.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/socket_programming" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
-                    </li>
                      <li class="project-item active" data-filter-item data-category="system development">
+                        <a href="#" onclick="showProjectDemo('./demo_video/socket_programming.webm', 'https://github.com/Samaranjan-Manjhi/socket_programming')">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
                                  <ion-icon name="eye-outline"></ion-icon>
                               </div>
-                              <img src="./assets/images/ip_status.png" alt="ip" loading="lazy" />
+                              <img src="./assets/images/server-client1.jpg" alt="orizon" loading="lazy" />
+                           </figure>
+                           <h3 class="project-title">Client-Server Chat Application</h3>
+                           <p class="project-category">System Development</p>
+                        </a>
+                     </li>
+                     <li class="project-item active" data-filter-item data-category="system development">
+                        <a href="#" onclick="showProjectDemo('./demo_video/ip_status_checker.webm', 'https://github.com/Samaranjan-Manjhi/IP_Status_Checker')">
+                           <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                 <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+                              <img src="./assets/images/ip_status.png" alt="fundo" loading="lazy" />
                            </figure>
                            <h3 class="project-title">IP Status Checker</h3>
                            <p class="project-category">System Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/ip_status_checker.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/IP_Status_Checker" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
+                        </a>
                      </li>
                      <li class="project-item active" data-filter-item data-category="application development">
+                        <a href="#" onclick="showProjectDemo('./demo_video/my_file_explorer.webm', 'https://github.com/Samaranjan-Manjhi/File_Explorer_Qt')">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
                                  <ion-icon name="eye-outline"></ion-icon>
                               </div>
-                              <img src="./assets/images/file_explorer.png" alt="file" loading="lazy" />
+                              <img src="./assets/images/file_explorer.png" alt="dsm." loading="lazy" />
                            </figure>
                            <h3 class="project-title">File Explorer</h3>
                            <p class="project-category">Application Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/my_file_explorer.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/File_Explorer_Qt" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
+                        </a>
                      </li>
                      <li class="project-item active" data-filter-item data-category="database development">
+                        <a href="#" onclick="showProjectDemo('./demo_video/cve_db_creator.webm', 'https://github.com/Samaranjan-Manjhi/cve_db_creator')">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
                                  <ion-icon name="eye-outline"></ion-icon>
                               </div>
-                              <img src="./assets/images/cve_logo.png" alt="cve" loading="lazy" />
+                              <img src="./assets/images/cve_logo.png" alt="brawlhalla" loading="lazy" />
                            </figure>
                            <h3 class="project-title">CVE DB Creator</h3>
                            <p class="project-category">Database Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/cve_db_creator.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/cve_db_creator" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
+                        </a>
                      </li>
                      <li class="project-item active" data-filter-item data-category="system development">
+                        <!--
+                        <a href="https://github.com/Samaranjan-Manjhi/Ransomware" onclick="showPrivateMessage(event)">
+                        -->
+                        <a href="#" onclick="showProjectDemo('./demo_video/Ransomware.webm', 'https://github.com/Samaranjan-Manjhi/Ransomware')">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
                                  <ion-icon name="eye-outline"></ion-icon>
                               </div>
-                              <img src="./assets/images/ran3.png" alt="ran" loading="lazy" />
+                              <img src="./assets/images/ran3.png" alt="metaspark" loading="lazy" />
                            </figure>
                            <h3 class="project-title">System call Interception</h3>
                            <p class="project-category">System Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/Ransomware.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/Ransomware" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
+                        </a>
                      </li>
                      <li class="project-item active" data-filter-item data-category="application development">
+                        <a href="#" onclick="showProjectDemo('./demo_video/ContentScanner.webm', 'https://github.com/Samaranjan-Manjhi/DLP_ContentScanner')">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
                                  <ion-icon name="eye-outline"></ion-icon>
                               </div>
-                              <img src="./assets/images/dlp3.jpg" alt="dlp" loading="lazy" />
+                              <img src="./assets/images/dlp2.jpg" alt="metaspark" loading="lazy" />
                            </figure>
                            <h3 class="project-title">DLP Content Scanner</h3>
                            <p class="project-category">Application Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/ContentScanner.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/DLP_ContentScanner" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
-                      </li>
-                    <li class="project-item active" data-filter-item data-category="application development">
-                           <figure class="project-img">
-                              <div class="project-item-icon-box">
-                                 <ion-icon name="eye-outline"></ion-icon>
-                              </div>
-                              <img src="./assets/images/cBackup7.png" alt="cBackup" loading="lazy" />
-                           </figure>
-                           <h3 class="project-title">Cloud Sync</h3>
-                           <p class="project-category">Application Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/cloudSync" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
+                        </a>
                       </li>
                   </ul>
                </section>
@@ -648,6 +584,7 @@
             <!--
                - #CONTACT
                -->
+          <!--
             <article class="contact" data-page="contact">
                <header>
                   <h2 class="h2 article-title">Contact</h2>
@@ -664,19 +601,19 @@
                </section>
                <section class="contact-form">
                   <h3 class="h3 form-title">Contact Form</h3>
-               <!--https://formspree.io/ -->
-                  <form action="https://formspree.io/f/xdkzqakl" method="POST" class="form" id="contactForm">
-  <div class="input-wrapper">
-    <input type="text" name="fullname" class="form-input" placeholder="Full name" required />
-    <input type="email" name="email" class="form-input" placeholder="Email address" required />
-  </div>
-  <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-  <button class="form-btn" type="submit">
-    <ion-icon name="paper-plane"></ion-icon>
-    <span>Send Message</span>
-  </button>
-</form>
-                </section>
+                  <form action="#" class="form" data-form>
+                     <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+                        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input />
+                     </div>
+                     <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                     <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                     </button>
+                  </form>
+               </section>
+                         -->         
                <script>
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent the default form submission

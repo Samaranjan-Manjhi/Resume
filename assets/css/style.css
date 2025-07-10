@@ -497,8 +497,23 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
-
-
+.gold-icon {
+/*  color: gold;
+  font-size: 40px;         
+  display: block;
+  transition: transform 0.3s ease, color 0.3s ease;
+*/
+     color: rgb(206, 177, 90);; /* softer antique gold */
+  font-size: 40px;
+  display: block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+/*
+.gold-icon:hover {
+  transform: scale(1.1);
+  color: #ffd700; 
+}
+*/
 /**
  * #service 
  */
@@ -1085,6 +1100,22 @@ main {
     .close-button {
         padding: 4px 8px; /* Smaller close button */
     }
+}
+
+.btn {
+  padding: 5px 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 🟢 Hover effect */
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slight white tint */
+  color: black; /* Optional: invert text color on hover */
 }
 
 /*samar*/
@@ -1941,3 +1972,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
