@@ -554,6 +554,11 @@ main {
 
 .service-item-title { margin-bottom: 7px; }
 
+.icon-center {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+}
 .service-item-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
