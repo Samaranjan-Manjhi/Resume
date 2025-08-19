@@ -45,34 +45,35 @@
             <div class="sidebar-info_more">
                <div class="separator"></div>
                <ul class="contacts-list">
-               <!--
-               <li class="contact-item">
-                    <a href="assets/resume/Resume.pdf" class="contact-link download-link" download>
-                    <div class="icon-box">
-                         <ion-icon name="download-outline"></ion-icon>
-                    </div>
-                    <div class="contact-info">
-                         <a class="contact-link">Resume</a>
-                    </div>
-                    </a>
-               </li>
-               <li class="contact-item">
-                    <a href="assets/resume/Resume.pdf" class="contact-link download-link" download>
-                    <div class="icon-box">
-                         <ion-icon name="download-outline"></ion-icon>
-                    </div>
-                    <div class="contact-info" style="color: white;">Resume</div>
-                    </a>
-               </li>
-               -->
-               <li class="resume-item">
-                    <a href="assets/resume/Resume.pdf" class="resume-download" download>
-                    <div class="resume-icon">
-                         <ion-icon name="download-outline"></ion-icon>
-                    </div>
-                    <div class="resume-text">Resume</div>
-                    </a>
-               </li>
+<!--
+                    <li class="contact-item">
+  <a href="assets/resume/Resume.pdf" class="contact-link download-link" download>
+    <div class="icon-box">
+      <ion-icon name="download-outline"></ion-icon>
+    </div>
+    <div class="contact-info">
+     <a class="contact-link">Resume</a>
+    </div>
+  </a>
+</li>
+<li class="contact-item">
+  <a href="assets/resume/Resume.pdf" class="contact-link download-link" download>
+    <div class="icon-box">
+      <ion-icon name="download-outline"></ion-icon>
+    </div>
+    <div class="contact-info" style="color: white;">Resume</div>
+  </a>
+</li>
+-->
+<li class="resume-item">
+  <a href="assets/resume/Resume.pdf" class="resume-download" download>
+    <div class="resume-icon">
+      <ion-icon name="download-outline"></ion-icon>
+    </div>
+    <div class="resume-text">Resume</div>
+  </a>
+</li>
+
                   <li class="contact-item">
                      <div class="icon-box">
                         <ion-icon name="mail-outline"></ion-icon>
@@ -819,4 +820,3 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
    </body>
 </html>
-

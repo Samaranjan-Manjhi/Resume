@@ -216,7 +216,8 @@ article {
 */
 .download-link {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
+  align-items: flex-start;
   text-decoration: none;   /* remove underline */
   gap: 8px;                /* small space between icon & text */
   color: inherit;          /* inherit same color as others */
@@ -228,20 +229,47 @@ article {
 .download-link .icon-box {
   background: none !important;
   box-shadow: none !important;
+  display: flex;
+  align-items: flex-start;
 }
 
-/* Kill margins inside resume row */
-.download-link .contact-info,
-.download-link .contact-title {
-  margin: 0 !important;
-  padding: 0 !important;
+/* Wrapper */
+.resume-download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  padding-left: 55px;
 }
 
-/* Kill li spacing for this row */
-.contact-item {
-  margin: 0 !important;
-  padding: 0 !important;
+/* Keep existing icon-box style */
+.icon-box {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: var(--shadow-1);
+  z-index: 1;
 }
+
+/* Only icon color */
+.resume-icon {
+  color: var(--orange-yellow-crayola);
+}
+
+/* Resume text in white */
+.resume-text {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
 
 
 
@@ -1502,9 +1530,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 15px 0; }
 
-  .contacts-list { gap: 20px; }
+  .contacts-list { gap: 15px; }
 
   .contact-info {
     max-width: calc(100% - 64px);
