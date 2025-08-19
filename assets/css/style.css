@@ -199,6 +199,53 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
+/*
+.download-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;  // remove underline //
+  gap: 0px;              // space between icon & text //
+  color: inherit;         // inherit the same color as others //
+  padding-left: 50px;
+}
+
+.download-link .icon-box {
+  background: none !important;
+  box-shadow: none !important;
+}
+*/
+.download-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;   /* remove underline */
+  gap: 8px;                /* small space between icon & text */
+  color: inherit;          /* inherit same color as others */
+  padding-left: 50px;      /* your custom shift */
+  margin: 0 !important;    /* remove extra gap */
+}
+
+/* Remove background only for the resume icon */
+.download-link .icon-box {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* Kill margins inside resume row */
+.download-link .contact-info,
+.download-link .contact-title {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Kill li spacing for this row */
+.contact-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+
 article { display: none; }
 
 article.active {
