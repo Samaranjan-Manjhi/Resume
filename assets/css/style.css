@@ -170,7 +170,7 @@ article {
   width: 100%;
   height: 1px;
   background: var(--jet);
-  margin: 16px 0;
+  margin: 0px 0;
 }
 
 .icon-box {
@@ -220,7 +220,7 @@ article {
   text-decoration: none;   /* remove underline */
   gap: 8px;                /* small space between icon & text */
   color: inherit;          /* inherit same color as others */
-  padding-left: 50px;      /* your custom shift */
+  padding-left: 35px;      /* your custom shift */
   margin: 0 !important;    /* remove extra gap */
 }
 
