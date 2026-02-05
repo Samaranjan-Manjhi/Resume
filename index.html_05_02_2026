@@ -240,7 +240,6 @@
                               </p>
                          </div>
                     </li>
-<!--
                      <li class="service-item">
                         <div class="service-icon-box">
                            <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
@@ -248,11 +247,13 @@
                         <div class="service-content-box">
                            <h4 class="h4 service-item-title">Photography</h4>
                            <p class="service-item-text">
+                           <!--
+                              I make high-quality photos of any category at a professional level.
+                           -->
                               Capturing stunning, high-quality photographs across various categories, utilizing professional equipment and techniques.
                            </p>
                         </div>
                      </li>
--->
                   </ul>
                </section>
                <div class="modal-container" data-modal-container>
@@ -356,59 +357,46 @@
                   </div>
                   <ol class="timeline-list">
                     <li class="timeline-item">
-                        <h4 class="h4 timeline-item-title">Printer Control & Content Filter</h4>
-                        <span>Oct 2025 – Jan 2026</span>
-                        <p class="timeline-text">
-                              Developed macOS printer control system enforcing application-based whitelisting/blacklisting and content scanning
-for sensitive data during print operations, blocking unauthorized prints based on process and content check status, with comprehensive logging using Endpoint Security framework and libcups.
-                         </p>
-                     </li>
-                    <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">ProcMon - Process Monitoring Tool</h4>
                         <span>July 2025 - Sept 2025</span>
                         <p class="timeline-text">
-                              Built lightweight macOS process monitoring solution capturing new executions (scp, rsync, vim) with command-line arguments and process hierarchies using native system calls, eliminating dependencies on Endpoint Security framework.
+                              macOS Process Monitoring Tool (C++) – Built a lightweight tool to monitor and log new process executions on macOS, including commands like scp, rsync, vim, and file copy operations. Captures command-line arguments and process hierarchies in real time using system calls, without relying on Endpoint Security or external libraries.
                          </p>
                      </li>
+
                      <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">File Integrity Monitoring System</h4>
                         <span>June 2025 - Aug 2025</span>
                         <p class="timeline-text">
-                              Created macOS FIM system processing configuration-based watch lists, maintaining metadata (permissions, MD5,
-size, timestamps) in SQLite, continuously detecting real-time modifications with alerting and audit logging.
+                              File Integrity Monitoring (FIM) for macOS — Built a tool that loads directory watch lists from a config file, recursively scans files to store metadata (permissions, MD5, size, timestamps, etc.) in SQLite, and continuously monitors for changes. Detects permission modifications, content changes, or deletions in real time, triggers alerts, and logs events for security auditing.
                          </p>
                      </li>
                      <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">cBackup - Cloud Backup & Monitoring Tool</h4>
                         <span>Feb 2025 - May 2025</span>
                         <p class="timeline-text">
-                              Architected cross-platform backup solution for macOS/Linux monitoring file transfers (USB, scp, rsync, curl,
-email), automatically creating local backups and synchronizing across cloud services with 10-minute intervals to
-prevent data loss.
+                              cBackup (Desktop EDR Edition) is a cross-platform backup solution for macOS and Linux that tracks file transfers to USB devices or outbound tools like scp, rsync, curl, or email. Detected files are first backed up locally in _attach or _usb folders, then uploaded to multiple cloud services based on availability. The system syncs every 10 minutes, ensuring that any deletions in local backup folders are reflected in the cloud to maintain consistency and prevent data loss. 
                          </p>
                      </li>
                      <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">Content Scanner</h4>
                         <span>Sept 2024 - Dec 2024</span>
                         <p class="timeline-text">
-                              Developed data scanning solution detecting confidential information (PAN, emails) across 12+ file formats (PDF,
-images, XML, DOCX, archives) using regex patterns, available as shared library and CLI tool.
+                           This project extracts data from various file types (PDF, JSON, XML, PPTX, XLSX, DOCX, TXT, DOC, images, zip, tar, tar.xz, tar.gz and tar.bz2) by detecting the file type based on its extension. It processes the content using appropriate libraries, applies regex to extract specific patterns (e.g., emails, Pan Card, Aadhaar Card, Driving License etc), and logs the results, including any errors, for easy tracking. The solution is cross-platform, working on both macOS and Linux systems.                        
                         </p>
                      </li>
                      <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">System Call Interception Module</h4>
                         <span>Mar 2024 - Aug 2024</span>
                         <p class="timeline-text">
-                              Developed Linux kernel module implementing system call interception with custom hooks for monitoring file
-operations by extension (creation, renaming, moving), enhancing security against ransomware attacks.
+                           Developed a kernel module in Linux to intercept system calls related to file creation, renaming, and moving based on file/ransomware extensions. This module enabled customized monitoring and control of file operations across the file system, enhancing security and operational oversight. The project showcased my skills in low-level programming and kernel architecture, as well as my understanding of system security mechanisms.
                         </p>
                      </li>
                      <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">Vulnerability Checker Application</h4>
                         <span>Oct 2023 - Jan 2024</span>
                         <p class="timeline-text">
-                              Built vulnerability assessment application integrating Qt frontend with C++ backend, utilizing cURL for automated
-ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage and scanning workflows.
+                           Developed a vulnerability checker application using C++ and Qt for the GUI, with SQLite for data management. The app features a user-friendly interface for initiating scans and viewing results in real-time. This project highlights my skills in integrating front-end and back-end technologies while emphasizing security.
                         </p>
                      </li>
 
@@ -706,25 +694,6 @@ ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage 
                                    🎥 View Demo
                               </a>
                               <a href="https://github.com/Samaranjan-Manjhi/macOS_ProcessMonitor" target="_blank" class="btn btn-github" style="margin-left: 7px;">
-                                   🔗 GitHub
-                              </a>
-                         </div>
-                      </li>
-
-                    <li class="project-item active" data-filter-item data-category="application development">
-                           <figure class="project-img">
-                              <div class="project-item-icon-box">
-                                 <ion-icon name="eye-outline"></ion-icon>
-                              </div>
-                              <img src="./assets/images/printer_control.png" alt="ProcMon" loading="lazy" />
-                           </figure>
-                           <h3 class="project-title">Printer Controler</h3>
-                           <p class="project-category">Application Development</p>
-                              <div style="margin-top: 10px; display: flex; gap: 10px;">
-                              <a href="./demo_video/printer_controler.webm" target="_blank" class="btn btn-demo" style="margin-left: 10px;">
-                                   🎥 View Demo
-                              </a>
-                              <a href="https://github.com/Samaranjan-Manjhi/macOS_PrinterControl" target="_blank" class="btn btn-github" style="margin-left: 7px;">
                                    🔗 GitHub
                               </a>
                          </div>
