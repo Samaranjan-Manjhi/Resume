@@ -45,8 +45,28 @@
             <div class="sidebar-info_more">
                <div class="separator"></div>
                <ul class="contacts-list">
+               <!--
+               <li class="contact-item">
+                    <a href="assets/resume/Resume.pdf" class="contact-link download-link" download>
+                    <div class="icon-box">
+                         <ion-icon name="download-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                         <a class="contact-link">Resume</a>
+                    </div>
+                    </a>
+               </li>
+               <li class="contact-item">
+                    <a href="assets/resume/Resume.pdf" class="contact-link download-link" download>
+                    <div class="icon-box">
+                         <ion-icon name="download-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info" style="color: white;">Resume</div>
+                    </a>
+               </li>
+               -->
                <li class="resume-item">
-                    <a href="assets/resume/Resume_Samaranjan_Manjhi.pdf" class="resume-download" download>
+                    <a href="assets/resume/Resume.pdf" class="resume-download" download>
                     <div class="resume-icon">
                          <ion-icon name="download-outline"></ion-icon>
                     </div>
@@ -89,6 +109,17 @@
                         <address>Mumbai, Maharashtra, India</address>
                      </div>
                   </li>
+               <!--
+                <li class="contact-item">
+                    <div class="icon-box">
+                         <ion-icon name="download-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                         <p class="contact-title">Resume</p>
+                         <a href="assets/resume/Resume.pdf" class="contact-link" download>Download</a>
+                    </div>
+               </li>
+               -->
                </ul>
                <div class="separator"></div>
                <ul class="social-list">
@@ -102,6 +133,13 @@
                         <ion-icon name="logo-linkedin"></ion-icon>
                      </a>
                   </li>
+                  <!--
+                  <li class="social-item">
+                    <a href="./assets/resume/Resume.pdf" class="social-link" download>
+                         <ion-icon name="download-outline"></ion-icon>
+                    </a>
+                  </li>
+                  -->
                </ul>
             </div>
          </aside>
@@ -156,6 +194,9 @@
                         <div class="service-content-box">
                            <h4 class="h4 service-item-title">Pattern Designing</h4>
                            <p class="service-item-text">
+                           <!--
+                              The most modern and high-quality design made at a professional level.
+                           -->
                               Delivering innovative design patterns and user interfaces that enhance functionality and user experience, developed with best practices in mind.
                            </p>
                         </div>
@@ -167,10 +208,26 @@
                         <div class="service-content-box">
                            <h4 class="h4 service-item-title">Software Development</h4>
                            <p class="service-item-text">
+                           <!--
+                              High-quality professional software development and application development for macOS and Linux.
+                           -->
                               Delivering high-quality software development services tailored for macOS and Linux, ensuring robust and scalable applications.
                            </p>
                         </div>
                      </li>
+                    <!--
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">Software Applications</h4>
+                           <p class="service-item-text">
+                              Professional development of versatile software applications for macOS and Linux, crafted to meet your specific needs and enhance user experience.
+                           </p>
+                        </div>
+                     </li>
+                  -->
                     <li class="service-item">
                          <div class="service-icon-box icon-center">
                          <!-- Replacing SVG image with Ionicon -->
@@ -183,6 +240,19 @@
                               </p>
                          </div>
                     </li>
+<!--
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">Photography</h4>
+                           <p class="service-item-text">
+                              Capturing stunning, high-quality photographs across various categories, utilizing professional equipment and techniques.
+                           </p>
+                        </div>
+                     </li>
+-->
                   </ul>
                </section>
                <div class="modal-container" data-modal-container>
@@ -461,9 +531,6 @@ ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage 
                      </ul>
                   </div>
                   <ul class="project-list">
-                    <!--
-                    1 Test Project
-                    -->
                      <li class="project-item active" data-filter-item data-category="system development">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
@@ -482,9 +549,6 @@ ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage 
                               </a>
                          </div>
                      </li>
-                    <!--
-                    2 Test Project
-                    -->
                     <li class="project-item active" data-filter-item data-category="system development">
                          <figure class="project-img">
                               <div class="project-item-icon-box">
@@ -504,9 +568,6 @@ ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage 
                               </a>
                          </div>
                     </li>
-                    <!--
-                    3 Test Project
-                    -->
                      <li class="project-item active" data-filter-item data-category="system development">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
@@ -525,9 +586,6 @@ ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage 
                               </a>
                          </div>
                      </li>
-                     <!--
-                     4 Test Project
-                     -->
                      <li class="project-item active" data-filter-item data-category="application development">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
@@ -546,9 +604,6 @@ ZIP downloads, XML parsing, and SQLite for efficient vulnerability data storage 
                               </a>
                          </div>
                      </li>
-                    <!--
-                     1 Major Project
-                    -->
                      <li class="project-item active" data-filter-item data-category="database development">
                            <figure class="project-img">
                               <div class="project-item-icon-box">
